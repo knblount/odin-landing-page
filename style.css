@@ -1,4 +1,10 @@
 
+* {
+    --body-color: #985F99;
+    --button-color: #99249B;
+    --small-text-color: #fff;
+}
+
 body {
     font-family: Roboto, sans-serif;
     display: flex;
@@ -10,15 +16,21 @@ body {
 
 a {
     font-size: 18px;
-    color: #b9b9ba;
+    font-weight: bold;
+    color: var(--small-text-color);
     text-decoration: none;
+}
+
+img {
+    height: 18em;
+    width: 34em;
 }
 
 .footer {
     text-align: center;
     padding: 48px;
-    background-color: #1F2937;
-    color: #F9FAF8
+    background-color: var(--body-color);
+    color: var(--small-text-color);
 }
 
 .header {
@@ -26,13 +38,14 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1F2937;
+    background-color: var(--body-color);
+    border-bottom: 2px solid var(--small-text-color);
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: #F9FAF8;
+    color: var(--small-text-color);
 }
 
 
@@ -49,17 +62,17 @@ ul {
 h1 {
     font-size: 48px;
     font-weight: 900;
-    color: #F9FAF8;
+    color: var(--small-text-color);
 }
 
 .hero p {
     font-size: 18px;
-    color: #b9b9ba;
+    color: var(--small-text-color);
 }
 
 .hero {
     padding: 90px 200px;
-    background-color: #1F2937;
+    background-color: var(--body-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,8 +89,8 @@ h1 {
 }
 
 .hero button {
-    background-color: #3882F6;
-    color: #F9FAF8;
+    background-color: var(--button-color);
+    color: var(--small-text-color);
     padding: 12px 24px;
     border-radius: 10px;
     border: none;
@@ -85,7 +98,7 @@ h1 {
 }
 
 .square div{
-    border: 5px solid #3882F6;
+    border: 5px solid var(--body-color);
     border-radius: 10px;
     width: 150px;
     height: 150px;
@@ -104,7 +117,7 @@ h1 {
 .body > p {
     font-size: 36px;
     font-weight: 900;
-    color: #1F2937;
+    color: var(--button-color);
 }
 
 .container {
@@ -116,7 +129,7 @@ h1 {
 
 .square p {
     font-size: 18px;
-    color: #b9b9ba;
+    color: var(--button-color);
     width: 150px;
     text-align: center;
 
@@ -124,7 +137,7 @@ h1 {
 
 .quote {
     background-color: #E5E7EB;
-    color: #1F2937;
+    color: var(--button-color);
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
@@ -132,7 +145,7 @@ h1 {
 }
 
 .signature {
-    color:#1F2937;
+    color: #8e3c90;
     font-weight: bold;
     font-size: 24px;
     text-align: right;
@@ -142,13 +155,13 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #3882F6;
+    background-color: var(--button-color);
     border-radius: 8px;
     padding: 48px 72px;
 }
 
 .action button {
-    background-color: #3882F6;
+    background-color: var(--button-color);
     border-color: #F9FAF8;
     border-radius: 5px;
     border-style: solid;
