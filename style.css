@@ -29,7 +29,7 @@ img {
 .footer {
     text-align: center;
     padding: 48px;
-    background-color: var(--body-color);
+    background-color: var(--button-color);
     color: var(--small-text-color);
 }
 
@@ -38,7 +38,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--body-color);
+    background-color: var(--button-color);
     border-bottom: 2px solid var(--small-text-color);
 }
 
@@ -72,7 +72,7 @@ h1 {
 
 .hero {
     padding: 90px 200px;
-    background-color: var(--body-color);
+    background-color: var(--button-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,7 +93,8 @@ h1 {
     color: var(--small-text-color);
     padding: 12px 24px;
     border-radius: 10px;
-    border: none;
+    border: solid;
+    border-color: var(--small-text-color);
     font-size: 18px;
 }
 
@@ -162,11 +163,11 @@ h1 {
 
 .action button {
     background-color: var(--button-color);
-    border-color: #F9FAF8;
+    border-color: var(--small-text-color);
     border-radius: 5px;
     border-style: solid;
     padding: 8px 48px;
-    color: #F9FAF8;
+    color: var(--small-text-color);
     font-size: 16px;
 }
 
@@ -175,12 +176,12 @@ h1 {
 }
 
 h3 {
-    color: #F9FAF8;
+    color: var(--small-text-color);
     font-size: 24px;
     margin: 0;
 }
 .action p {
-    color:#b9b9ba;
+    color: var(--small-text-color);
     font-size: 18px;
     margin: 0;
 
