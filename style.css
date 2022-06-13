@@ -1,0 +1,175 @@
+
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+
+}
+
+a {
+    font-size: 18px;
+    color: #b9b9ba;
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    padding: 48px;
+    background-color: #1F2937;
+    color: #F9FAF8
+}
+
+.header {
+    padding: 16px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #b9b9ba;
+}
+
+.hero {
+    padding: 90px 200px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    flex: 1;
+    text-align: right
+}
+
+.hero-text {
+    flex: 1;
+
+}
+
+.hero button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 12px 24px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+}
+
+.square div{
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 24px;
+}
+
+.body > p {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: nowrap;
+}
+
+.square p {
+    font-size: 18px;
+    color: #b9b9ba;
+    width: 150px;
+    text-align: center;
+
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    padding: 150px 300px;
+}
+
+.signature {
+    color:#1F2937;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 48px 72px;
+}
+
+.action button {
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 8px 48px;
+    color: #F9FAF8;
+    font-size: 16px;
+}
+
+.action-container {
+    margin: 100px 200px
+}
+
+h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin: 0;
+}
+.action p {
+    color:#b9b9ba;
+    font-size: 18px;
+    margin: 0;
+
+}
+
